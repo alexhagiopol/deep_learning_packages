@@ -1,34 +1,41 @@
-# CarND Term1 Starter Kit
+##Deep Learning Package Installation
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+    
+This is my cleaned up version of Udacity's documentation for installation of Python packagages needed for 
+Deep Learning software development. I tested this installation procedure on Ubuntu 16.04.
 
-The purpose of this project is to provide unified software dependency support for students enrolled in Term 1 of the [Udacity Self-Driving Car Engineer Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013).
+###Installation
 
-Python 3 is used for entirety of term 1.
+Clone the repository:
 
-There are two ways to get up and running:
+    git clone git@github.com:alexhagiopol/deep_learning_packages.git
+    cd deep_learning_packages
+    
+Install the latest version of Miniconda: 
 
-## [Anaconda Environment](doc/configure_via_anaconda.md)
+    wget  https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    ./Miniconda3-latest-Linux-x86_64.sh
+    
+Create a conda environment according to the YAML file provided by Udacity:
 
-Get started [here](doc/configure_via_anaconda.md). More info [here](http://conda.pydata.org/docs/).
+    conda env create -f environment.yml
 
-Supported Sytems: Linux (CPU), Mac (CPU), Windows (CPU)     
+Activate the environment to work inside of it in the current terminal window:
 
-| Pros                         | Cons                                               |
-|------------------------------|----------------------------------------------------|
-| More straight-forward to use | AWS or GPU support is not built in (have to do this yourself)              |
-| More community support       | Implementation is local and OS specific            |
-| More heavily adopted         |                                                    |
+    source activate carnd-term1
+    
+OPTIONAL: Verify that the carnd-term1 environment was created in your environments:
 
-## [Docker](doc/configure_via_docker.md)
+    conda info --envs
+    
+OPTIONAL: Cleanup downloaded libraries (remove tarballs, zip files, etc):
 
-Get started [here](doc/configure_via_docker.md). More info [here](http://docker.com).
+    conda clean -tp
 
-Supported Systems : AWS (CPU, [GPU](doc/docker_for_aws.md)), Linux (CPU), Mac (CPU), Windows (CPU)     
+OPTIONAL: To uninstall the environment:
 
-| Pros                                | Cons                                 |
-|-------------------------------------|--------------------------------------|
-| Configure once for all environments | More challenging to use              |
-| AWS, GPU support                    | Less community support               |
-| Practice with Docker              | Have to manage images and containers |
-|                                     |                                      |
+    conda env remove -n carnd-term1
+
+    
+    
