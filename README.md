@@ -2,7 +2,7 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
     
-This is my cleaned up version of Udacity's documentation for installation of Python packagages needed for 
+My version of Udacity's documentation for installation of Python packagages needed for 
 Deep Learning software development. I tested this installation procedure on Ubuntu 16.04.
 
 ### Installation
@@ -15,7 +15,7 @@ Clone the repository:
 Install the latest version of Miniconda: 
 
     wget  https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    ./Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
     
 Create a conda environment according to the YAML file provided by Udacity:
 
