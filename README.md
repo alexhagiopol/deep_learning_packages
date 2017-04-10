@@ -1,11 +1,11 @@
-##Deep Learning Package Installation
+## Deep Learning Package Installation
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
     
 This is my cleaned up version of Udacity's documentation for installation of Python packagages needed for 
 Deep Learning software development. I tested this installation procedure on Ubuntu 16.04.
 
-###Installation
+### Installation
 
 Clone the repository:
 
