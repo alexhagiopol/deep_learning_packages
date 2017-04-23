@@ -33,6 +33,11 @@ Activate the environment to work inside of it in the current terminal window:
 
     source activate carnd-term1
     
+OPTIONAL: You can now train a real neural netowork to test that your installation was successful:
+
+    source activate carnd-term1
+    python cnn_tf_example.py
+
 OPTIONAL: Verify that the carnd-term1 environment was created in your environments:
 
     conda info --envs
