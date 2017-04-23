@@ -14,9 +14,17 @@ Clone the repository:
     
 Install the latest version of Miniconda: 
 
+Ubuntu:
+
     wget  https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
     bash Miniconda3-latest-Linux-x86_64.sh
     
+Mac:
+
+    brew install wget
+    wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+    bash Miniconda3-latest-MacOSX-x86_64.sh
+   
 Create a conda environment according to the YAML file provided by Udacity:
 
     conda env create -f environment.yml
