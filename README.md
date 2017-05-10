@@ -31,11 +31,11 @@ Create a conda environment according to the YAML file provided by Udacity:
 
 Activate the environment to work inside of it in the current terminal window:
 
-    source activate carnd-term1
+    source activate deep-learning
     
-OPTIONAL: You can now train a real neural netowork to test that your installation was successful:
+OPTIONAL: You can now train a real neural network to test that your installation was successful:
 
-    source activate carnd-term1
+    source activate deep-learning
     python cnn_tf_example.py
 
 OPTIONAL: Verify that the carnd-term1 environment was created in your environments:
@@ -48,7 +48,6 @@ OPTIONAL: Cleanup downloaded libraries (remove tarballs, zip files, etc):
 
 OPTIONAL: To uninstall the environment:
 
-    conda env remove -n carnd-term1
+    conda env remove -n deep-learning
 
-    
     
