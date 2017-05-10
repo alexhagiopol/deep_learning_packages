@@ -1,9 +1,8 @@
 ## Deep Learning Packages
 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-    
-My version of Udacity's documentation for installation of Python packagages needed for 
-Deep Learning software development. I tested this installation procedure on Ubuntu 16.04.
+Installation of Python packagages needed for 
+deep learning software development. I tested this installation 
+procedure on Ubuntu 16.04 and Mac OS X 10.11.6 (El Capitan).
 
 ### Installation
 
@@ -25,7 +24,7 @@ Mac:
     wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
     bash Miniconda3-latest-MacOSX-x86_64.sh
    
-Create a conda environment according to the YAML file provided by Udacity:
+Create a conda environment according to YAML file:
 
     conda env create -f environment.yml
 
