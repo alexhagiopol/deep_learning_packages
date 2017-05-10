@@ -1,4 +1,4 @@
-name: carnd-term1
+name: deep-learning
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -22,5 +22,5 @@ dependencies:
     - pyqt=4.11.4
     - pip:
         - moviepy
-        - tensorflow==0.12.1
+        - tensorflow==1.1.0
         - keras==1.2.1
