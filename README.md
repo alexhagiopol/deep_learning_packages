@@ -37,7 +37,7 @@ OPTIONAL: You can now train a real neural network to test that your installation
     source activate deep-learning
     python cnn_tf_example.py
 
-OPTIONAL: Verify that the carnd-term1 environment was created in your environments:
+OPTIONAL: Verify that the `deep-learning` environment was created in your environments:
 
     conda info --envs
     
