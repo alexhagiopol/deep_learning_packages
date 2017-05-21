@@ -23,4 +23,4 @@ dependencies:
     - pip:
         - moviepy
         - tensorflow==1.1.0
-        - keras==1.2.1
+        - keras==2.0.4
