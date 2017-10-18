@@ -8,7 +8,7 @@ procedure on Ubuntu 16.04 and Mac OS X 10.11.6 (El Capitan).
 
 Clone the repository:
 
-    git clone git@github.com:alexhagiopol/deep_learning_packages.git
+    git clone https://github.com/alexhagiopol/deep_learning_packages.git
     cd deep_learning_packages
     
 Install the latest version of Miniconda: 
